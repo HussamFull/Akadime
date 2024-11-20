@@ -331,7 +331,14 @@ p{
 .counts .stats-item {
   padding: 30px;
   width: 100%;
+  cursor: pointer;
 }
+.counts .stats-item:hover i {
+  color: var(--accent-color);
+}
+
+
+
 .counts .stats-item span {
   font-size: 48px;
   display: block;
@@ -454,6 +461,69 @@ p{
 
 
 
+
+/*-------- Start Features Section -------------*/
+
+.features {
+  padding: 10px 0;
+  background-color: var(--background-color);
+  margin-bottom: 60px;
+  
+ 
+}
+
+.features .features-item {
+  background-color: var(--surface-color);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  transition: 0.3s;
+  border: 1px solid color-mix(in srgb, var(--heading-color), transparent 90%);
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+
+}
+
+
+.features .features-item i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 0;
+}
+
+.features .features-item h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.features .features-item h3 a {
+  color: var(--heading-color);
+  transition: 0.3s;
+}
+
+.features .features-item:hover {
+  border-color: var(--accent-color);
+}
+
+.features .features-item:hover h3 a {
+  color: var(--accent-color);
+}
+
+
+
+
+
+/*-------- End Features Section -------------*/
+
+
+
  /*-------- Start # Courses Section------------*/ 
 
 
@@ -461,6 +531,15 @@ p{
   background-color: var(--surface-color);
   border: 1px solid color-mix(in srgb, var(--heading-color), transparent 90%);
   border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s;
+ 
 }
 
 .courses .course-content {
