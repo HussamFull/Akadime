@@ -306,11 +306,7 @@ p{
 /*-------- End  Counts Section -------------*/
 
 
-
-
-/*--------------------------------------------------------------
-# Why Us Section
---------------------------------------------------------------*/
+/*------ Start # Why Us Section  ------------------*/
 
 .why-us {
   padding: 100px 0;
@@ -409,6 +405,88 @@ p{
  color: #444444;
   background: var(--accent-color);
 }
+/*------ End  # Why Us Section  ------------------*/
+
+
+
+ /*-------- Start # Courses Section------------*/ 
+
+ 
+
+
+
+/*------ End # Courses Section  ------------------*/
+
+
+ /*-------- Start Trainers Index Section-------------*/ 
+
+ .trainers-index{
+  padding: 50px 0;
+ }
+ .trainers-index .member {
+  background-color: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--heading-color), transparent 90%);
+  text-align: center;
+  
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+}
+.trainers-index .member img {
+  margin: -1px -1px 30px -1px;
+}
+
+.trainers-index .member .member-content {
+  padding: 0 20px 30px 20px;
+}
+
+.trainers-index .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.trainers-index .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: color-mix(in srgb, var(--heading-color), transparent 20%);
+}
+
+.trainers-index .member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: color-mix(in srgb, var(--heading-color), transparent 40%);
+}
+
+.trainers-index .member .social {
+  margin-top: 15px;
+}
+
+.trainers-index .member .social a {
+  color: color-mix(in srgb, var(--heading-color), transparent 60%);
+  transition: 0.3s;
+}
+
+.trainers-index .member .social a:hover {
+  color: var(--accent-color);
+}
+
+.trainers-index .member .social i {
+  font-size: 26px;
+  margin: 0 2px;
+}
+
+ /*-------- Start Trainers Index Section-------------*/ 
+
+
+
+
+
+
+
+
 
 
 
@@ -576,10 +654,10 @@ p{
 
 
 
+/*------ Start  # Scroll Top Buttonn ------------------*/
 
-/*--------------------------------------------------------------
-# Scroll Top Button
---------------------------------------------------------------*/
+
+
 .scroll-top {
   position: fixed;
   visibility: hidden;
@@ -614,3 +692,6 @@ p{
   opacity: 1;
   bottom: 15px;
 }
+
+
+/*------ End  # Scroll Top Button ------------------*/
