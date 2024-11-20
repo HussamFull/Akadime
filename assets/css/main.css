@@ -28,6 +28,51 @@
   --nav-dropdown-hover-color: #5fcf80; 
 }
 
+/*-------Start Global Section Titles---------*/
+
+.section-title {
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--heading-color), transparent 50%);
+  position: relative;
+}
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: var(--accent-color);
+  margin: 4px 10px;
+}
+
+
+.section-title p {
+  color: var(--heading-color);
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--nav-font);
+  text-transform: uppercase;
+}
+
+
+
+/*-------End  Global Section Titles---------*/
+
+
+
+
+
 
 /*-------Start Navbar with body  Section---------*/
 body {
@@ -411,8 +456,81 @@ p{
 
  /*-------- Start # Courses Section------------*/ 
 
- 
 
+ .courses .course-item {
+  background-color: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--heading-color), transparent 90%);
+  border-radius: 5px;
+}
+
+.courses .course-content {
+  padding: 15px;
+}
+
+.courses .course-content h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.courses .course-content h3 a {
+  color: var(--heading-color);
+  transition: 0.3s;
+}
+.courses .course-content h3 a:hover {
+  color: var(--accent-color);
+}
+
+.courses .course-content .category {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  font-size: 14px;
+  padding: 6px 14px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.courses .course-content .price {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: color-mix(in srgb, var(--heading-color), transparent 20%);
+}
+
+.courses .course-content .description {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--heading-color), transparent 20%);
+}
+
+.courses .trainer {
+  padding-top: 15px;
+  border-top: 1px solid color-mix(in srgb, var(--heading-color), transparent 90%);
+}
+
+.courses .trainer .trainer-profile img {
+  max-width: 50px;
+  border-radius: 50px;
+}
+
+.courses .trainer .trainer-profile .trainer-link {
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: color-mix(in srgb, var(--heading-color), transparent 20%);
+  transition: 0.3s;
+}
+
+.courses .trainer .trainer-profile .trainer-link:hover {
+  color: var(--accent-color);
+}
+
+.courses .trainer .trainer-rank {
+  font-size: 18px;
+  color: color-mix(in srgb, var(--heading-color), transparent 60%);
+}
+
+.courses .trainer .trainer-rank .user-icon {
+  font-size: 22px;
+}
 
 
 /*------ End # Courses Section  ------------------*/
@@ -421,7 +539,7 @@ p{
  /*-------- Start Trainers Index Section-------------*/ 
 
  .trainers-index{
-  padding: 50px 0;
+  padding: 80px 0;
  }
  .trainers-index .member {
   background-color: var(--surface-color);
