@@ -167,17 +167,22 @@ p{
   }
   
 
+
+  
+
  
   .nav .ul .nav-item:hover {
     color: var(--nav-hover-color);
   }
 
-  .nav .active{
+  .nav-link .active{
     color: #5fcf80;
   }
 
   .active {
     color: #5fcf80;
+    
+   
    
   }
 
