@@ -25,3 +25,14 @@
 
 
 
+const navLinks = document.querySelectorAll('.nav-link');
+
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        // إزالة فئة active من جميع العناصر
+        navLinks.forEach(link => link.classList.remove('active'));
+
+        // إضافة فئة active للعنصر الحالي
+        link.classList.add('active');
+    });
+});

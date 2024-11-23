@@ -197,7 +197,21 @@ p{
   }
 
 
+  .active {
+    background-color: #5fcf80; /* لون الخلفية عند النشاط */
+    color: #333; /* لون النص عند النشاط */
+    border-radius: 5px; /* حدود التنا��ير */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid var(--accent-color);
   
+}
+  
+
 
 
 
