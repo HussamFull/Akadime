@@ -22,7 +22,7 @@
 /*  End Scroll top button  */ 
 
 
-
+/*  Start   Navbar Active   */ 
 
 
 const navLinks = document.querySelectorAll('.nav-link');
@@ -36,3 +36,6 @@ navLinks.forEach(link => {
         link.classList.add('active');
     });
 });
+
+
+/*  End   Navbar Active   */ 
